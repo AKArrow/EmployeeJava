@@ -1,8 +1,12 @@
 import java.io.*;
 import java.util.*;
-class uc9
+interface company
 {
-	public static void main(String s[])
+	public void EmpWageBuilder();
+}
+class uc11
+{
+	public void EmpWageBuilder()
 	{
 		try
 		{
@@ -33,5 +37,10 @@ class uc9
 		{
 			e.printStackTrace();
 		}
+	}
+	public static void main(String s[])
+	{
+		uc11 u = new uc11();
+		u.EmpWageBuilder();
 	}
 }
